@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klant AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ai.css">
+</head>
+<body>
+<div class="chat-container">
+    <header>💬 Klant AI
+        <button id="mode-toggle">🌙</button>
+    </header>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="input-container">
+        <input type="text" id="user-input" placeholder="Ask me about your code issues...">
+        <button onclick="sendMessage()">Send 🚀</button>
+        <button onclick="startVoiceInput()">🎙️</button>
+        <button onclick="downloadChat()">💾</button>
+    </div>
+</div>
+<script src="ai.js"></script>
+</body>
+</html>
