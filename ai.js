@@ -39,7 +39,7 @@ function showTypingIndicator() {
     const typing = document.createElement("div");
     typing.className = "message bot";
     typing.id = "typing-indicator";
-    typing.innerHTML = "<em>Nova is typing...</em>";
+    typing.innerHTML = "<em>Klant is typing...</em>";
     chatBox.appendChild(typing);
     chatBox.scrollTop = chatBox.scrollHeight;
 }
